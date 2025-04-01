@@ -9,8 +9,20 @@ from sklearn.metrics import mean_squared_error, r2_score
 import os
 import webbrowser
 
+
 # Title of the app
-st.title("Interactive Regression Analysis App")
+st.title("Abdallah's Regression Analysis App")
+
+# Sidebar: About the Author Section
+st.sidebar.write("## About the Author")
+st.sidebar.write("""
+**Author:** Sserujja Abdallah Kulumba  
+**Affiliation:** Islamic University of Technology  
+**Email:** abdallahkulumba@iut-dhaka.edu  
+**GitHub:** [github.com/Abdallahkulumba](https://github.com/Abdallahkulumba)  
+**LinkedIn:** [linkedin.com/in/Abdallahkulumba](https://www.linkedin.com/in/abdallah-kulumba-sserujja/)  
+**Facebook:** [facebook.com/Abdallahkulumba](https://www.facebook.com/abdallah.ed.ak)  
+""")
 
 # Sidebar for selecting regression type
 st.sidebar.header("Regression Options")
@@ -52,7 +64,7 @@ if 'df' in locals():
         ### Key Features:
         - **Visualization**: Scatter plots are used to visualize the relationship between X and y.
         - **Assumptions**: Assumes a linear relationship, no multicollinearity, and homoscedasticity.
-        - **Use Case**: Predicting a dependent variable based on one independent variable, e.g., predicting house prices based on size.
+        - **Use CSSSSase**: Predicting a dependent variable based on one independent variable, e.g., predicting house prices based on size.
         """)
 
         # Select columns for X and y
@@ -181,12 +193,3 @@ if 'df' in locals():
         plt.legend()
         st.pyplot(plt)
 
-# About the Author Section
-if st.sidebar.button("About the Author"):
-    st.write("## About the Author")
-    st.write("""
-    **Author:** Sserujja Abdallah Kulumba  
-    **GitHub:** [github.com/Abdallahkulumba](https://github.com/Abdallahkulumba)  
-    **LinkedIn:** [linkedin.com/in/Abdallahkulumba](https://www.linkedin.com/in/abdallah-kulumba-sserujja/)  
-    **Facebook:** [facebook.com/Abdallahkulumba](https://www.facebook.com/abdallah.ed.ak)  
-    """)
