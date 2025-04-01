@@ -38,6 +38,5 @@ The Streamlit app provides an interactive interface for users to select and visu
 This project is licensed under the MIT License.
 
 ## Author Information
-**Author:** Abdallah  
-**Email:** [Your Email Address]  
-**Date:** [Current Date]
+**Author:** Sserujja Abdallah Kulumba
+**Email:** abdallahkulumba@iut-dhaka.edu 
