@@ -13,16 +13,6 @@ import webbrowser
 # Title of the app
 st.title(" Regression Analysis ")
 
-# Sidebar: About the Author Section
-st.sidebar.write("## About the Author")
-st.sidebar.write("""
-**Author:** Sserujja Abdallah Kulumba  
-**Affiliation:** Islamic University of Technology  
-**Email:** abdallahkulumba@iut-dhaka.edu  
-**GitHub:** [github.com/Abdallahkulumba](https://github.com/Abdallahkulumba)  
-**LinkedIn:** [linkedin.com/in/Abdallahkulumba](https://www.linkedin.com/in/abdallah-kulumba-sserujja/)  
-**Facebook:** [facebook.com/Abdallahkulumba](https://www.facebook.com/abdallah.ed.ak)  
-""")
 
 # Sidebar for selecting regression type
 st.sidebar.header("Regression Options")
@@ -192,4 +182,15 @@ if 'df' in locals():
         plt.title(f"Polynomial Regression (Degree {degree})")
         plt.legend()
         st.pyplot(plt)
+
+# Sidebar: About the Author Section
+st.sidebar.write("## About the Author")
+st.sidebar.write("""
+**Author:** Sserujja Abdallah Kulumba  
+**Affiliation:** Islamic University of Technology  
+**Email:** abdallahkulumba@iut-dhaka.edu  
+**GitHub:** [github.com/Abdallahkulumba](https://github.com/Abdallahkulumba)  
+**LinkedIn:** [linkedin.com/in/Abdallahkulumba](https://www.linkedin.com/in/abdallah-kulumba-sserujja/)  
+**Facebook:** [facebook.com/Abdallahkulumba](https://www.facebook.com/abdallah.ed.ak)  
+""")
 
