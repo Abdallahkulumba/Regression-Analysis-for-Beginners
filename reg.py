@@ -11,7 +11,7 @@ import webbrowser
 
 
 # Title of the app
-st.title("Abdallah's Regression Analysis App")
+st.title(" Regression Analysis ")
 
 # Sidebar: About the Author Section
 st.sidebar.write("## About the Author")
